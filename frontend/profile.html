@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turbo - Errand App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <img src="turbo_logo.png" alt="Turbo Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="errand-form.html">Tasks</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="signup.html">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Profile Section -->
+<section class="profile" id="profile">
+    <div class="container">
+        <div class="profile-info">
+            <h2>Your Profile</h2>
+            <div class="profile-item">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" readonly>
+            </div>
+            <div class="profile-item">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" readonly>
+            </div>
+            <div class="profile-item">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone number" readonly>
+            </div>
+            <!-- Add more profile information fields as needed -->
+            <button class="btn edit-profile">Edit Profile</button>
+        </div>
+    </div>
+</section>
